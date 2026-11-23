@@ -1,0 +1,27 @@
+# Datos del proyecto
+data/
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Modelos Keras originales
+*.keras
+
+# Archivos de configuración privados
+.env
+.env.*
+*.pem
+*.key
+
+# Archivos de macOS
+.DS_Store
+
+# Archivos locales de herramientas
+.claude/

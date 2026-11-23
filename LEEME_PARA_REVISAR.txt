@@ -1,0 +1,23 @@
+Muchachos, este es el entregable final completo. Lo que hay que revisar:
+
+1. La app publicada (ábranla desde el celular):
+   https://alerta-temprana-saber11.streamlit.app
+   Prueben "Mi grupo" con el grupo de ejemplo, muevan los cupos y miren la pestaña "Un estudiante".
+
+2. El código (todo está también en GitHub):
+   https://github.com/jslozanod/alerta-temprana-saber11
+   - notebooks/03_Modelo_Final_y_Despliegue_Saber11.ipynb  -> búsqueda de hiperparámetros, calibración, resultados 2025, equidad, monitoreo
+   - app/  -> la aplicación (motor.py hace la predicción con NumPy)
+
+3. documentos/Documento_Final_Alerta_Temprana_Saber11.docx (y .pdf)  -> el documento escrito
+
+4. presentacion/Presentacion_Final_Saber11.pptx  -> 16 láminas, mismo estilo de la entrega pasada
+   presentacion/Guion_Exposicion_Final.docx  -> lo que dice cada uno + preguntas probables del profe
+   Reparto: Juan (1-4, 12-13) · Julián (5-8, 16) · Alejandro (9-11, 14-15). Dura unos 13 minutos con la demo.
+
+5. PENDIENTE: validación con docentes.
+   documentos/Protocolo_Validacion_Docentes_SUS.docx  -> 15 minutos por docente, 6 tareas y el cuestionario SUS.
+   Si conseguimos 3 docentes hoy o mañana temprano, se llenan la tabla de la sección 6 del documento y la lámina 15.
+
+Lo que cambió frente a la entrega 2: búsqueda de 30 configuraciones, validación por años, red 128-64 con Dropout y L2,
+calibración, umbral por calendario (calendario B pasa de 51 % a 68 %), priorización por cupos y la app publicada.
